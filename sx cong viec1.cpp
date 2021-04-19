@@ -2,7 +2,7 @@
 using namespace std;
 
 
-main(){
+int main(){
     int t; cin>>t;
     while(t--){
     int n,count(0); cin>>n;
@@ -28,7 +28,7 @@ main(){
     for(int i(0);i<n;i++) cout<<end[i]<<' '; 
     cout<<'\n';   
     }
-
+return 0;
 }
 /*
 2 6
